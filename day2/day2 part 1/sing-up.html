@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sing up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<p>Sing Up</p>
+    
+    <form>
+        <!-- <fieldset> -->
+
+        <!-- <h3>Personal Details</h3> -->
+            
+        <div class="salut">
+            <label>Salutation</label><br>
+            <select>
+                <option value="--None--" >--None--</option>
+            </select><br>
+         </div>
+         <div>
+        <label>First name:</label>
+        <input type="text" name="prenom" value=""><br>
+         </div>
+         <div>
+        <label>Last name:</label>
+        <input type="text" name="nom" value=""><br>
+        </div>
+        <div>
+            <label>Gender:</label>
+            <div class="radio-inputs">
+                <div>
+                    <input type="radio" name="Gender" value="Male">
+                    <label>Male</label>
+                </div>
+                <div>
+                    <input type="radio" name="Gender" value="Female">
+                    <label>Female</label><br>
+                </div>
+            </div>
+        </div>
+        <div>
+        <label>Email:</label>
+        <input type="email" name="email" value=""><br>
+        </div>
+        <div>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" name="birthday" value="date of birth"><br>
+        </div>
+        <div class="address">
+        <label for="Address">Address:</label>
+        <textarea id="Address"  name="adress" rows="10"></textarea>
+        </div>
+        <div class="botton">
+        <input type="submit" value="submit">
+        </div>
+        
+
+
+      </fieldset>
+    </form>
+
+    </div>
+
+
+
+</body>
+</html>
